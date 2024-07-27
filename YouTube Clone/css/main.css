@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.wrapper{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+/* sider qism */
+
+.sider{
+    width: 20%;
+    height: 100%;
+    padding: 1.5rem;
+    position: fixed;
+    left: 0;
+    top: 0;
+    overflow: auto;
+}
+.sider .flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+}
+.sider .flex .menu{
+    width: 25px;
+}
+.sider .flex .youtubeLogo{
+    width: 110px;
+}
+.sider .flex2{
+    display: flex;
+    align-items: center;
+    padding: 0.5rem;
+}
+.sider .flex2 img{
+    width: 25px;
+}
+.sider .flex2 a{
+    font-size: 16px;
+    color: black;
+    font-weight: 600;
+    margin-left: 30px;
+    text-decoration: none;
+}
+hr{
+    margin: 1rem 0;
+}
+
+/* content qism */
+
+.content{
+    width: 80%;
+    height: 100%;
+    margin-left: 20%;
+}
+
+.content .menu{
+    width: 100%;
+    padding: 1rem;
+    position: fixed;
+    background-color: white;
+}
+.content .menu .flex3{
+    display: flex;
+    align-items: center;
+}
+.content .menu .flex3 input{
+    width: 500px;
+    padding: 0.5rem;
+    outline: none;
+    border-radius: 40px;
+    border: 1px solid #ccc;
+    margin-left: 100px;
+}
+.content .menu .flex3 .search{
+    width: 20px;
+    margin-left: -30px;
+}
+.content .menu .flex3 .microphone{
+    width: 25px;
+    margin-left: 50px;
+}
+.content .menu .flex3 .addvideo{
+    width: 25px;
+    margin-left: 200px;
+}
+.content .menu .flex3 .uvedomlenie{
+    width: 25px;
+    margin-left: 40px;
+}
+.content .menu .flex3 .user{
+    width: 30px;
+    margin-left: 40px;
+}
+.content .menu .flex4{
+    margin: 1.2rem 0;
+}
+.content .menu .flex4 button {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    margin-right: 3px;
+}
+.glavniy{
+    height: 100%;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 140px;
+}
+.glavniy .box{
+    width: 30%;
+    padding-bottom: 1rem;
+    margin-top: 1.5rem;
+}
+.glavniy .box img{
+    width: 100%;
+    border-radius: 15px;
+}
+.flex5{
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.glavniy .box .flex5 img{
+    width: 40px;
+    margin-right: 5px;
+}
+.glavniy .box p{
+    margin: 0rem 1rem 0 1rem;
+}
